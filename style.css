@@ -1,0 +1,73 @@
+.center {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    margin: auto;
+    font-family: "Century Gothic", sans-serif;
+    box-shadow: 10px 10px 40px -1px rgb(1 1 1 / 70%);
+}
+
+.header {
+    display: block;
+    color: black;
+    text-align: left;
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+
+.name {
+    display: inherit;
+    list-style: none;
+}
+
+.info {
+    list-style: none;
+    font-size: 20px;
+    position: absolute;
+    margin-left: 400px;
+}
+
+.photo {
+    width: 200px;
+    border-radius: 105px;
+    box-shadow: 4px 4px 14px rgb(0 0 0 / 25%);
+}
+
+.main {
+    height: 50%;
+    width: 70%;
+    padding: 20px;
+    margin-left: 40px;
+    display: block;
+    background-color: #f8f8f8;
+    font-family: "Century Gothic", sans-serif;
+}
+
+.about {
+    flex-direction: inherit;
+    margin-bottom: 50px;
+}
+
+.list {
+    margin: 15px 0;
+    list-style: none;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.languages {
+    display: flex;
+}
+
+.education {
+    display: flex;
+}
+
+.courses {
+    display: flex;
+}
+
+.skills {
+    display: flex;
+}

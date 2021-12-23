@@ -21,6 +21,11 @@
     list-style: none;
 }
 
+.contact {
+    text-align: center;
+    padding-top: 30px;
+}
+
 .info {
     list-style: none;
     font-size: 20px;
@@ -29,6 +34,7 @@
 }
 
 .photo {
+    margin-top: -50px;
     width: 200px;
     border-radius: 105px;
     box-shadow: 4px 4px 14px rgb(0 0 0 / 25%);
